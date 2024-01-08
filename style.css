@@ -1,0 +1,96 @@
+/** {*/
+/*    !*font-family:Arial sans-serif;*!*/
+/*    font-size: 16px;*/
+/*}*/
+*{
+    background: #b0b0d9;
+    /*background: #04047AFF;*/
+}
+
+.page {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    max-width: 640px;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    user-select: none;
+    font-size: 16px;
+    z-index: +5;
+}
+h1 {
+    font-family: Calibri;
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
+.gameShuffle {
+   pointer-events: none;
+   opacity: 0.5;
+
+}
+
+
+.game {
+    width: 100%;
+    padding-bottom: 100%;
+    background: #9696EFFF;
+    margin-bottom: 4rem;
+    position: relative;
+    box-shadow: 0 0 20px 3px #04047a;
+
+    .item {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 25%;
+        height: 25%;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background: black;
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+        box-shadow: inset 1px 1px #9696EFFF;
+        transition: transform 0.2s, filter 0.5s;
+
+        .itemVal {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 84%;
+            height: 84%;
+            margin: 8% ;
+            box-shadow: inset 0 0 0 2px #04047AFF;
+            background: black;
+         }
+
+    }
+    .wonClass {
+        .item {
+            filter: brightness(200%);
+
+        }
+
+    }
+
+}
+
+.shufButton {
+    color: white;
+    background: #04047AFF;
+    font-family: Calibri;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.5em 1.5em;
+
+    &:hover {
+        background: #9696EFFF;
+        box-shadow: 0 0 20px 3px #04047a;
+        color: black;
+     }
+
+}
+
