@@ -48,7 +48,8 @@ h1 {
         padding: 0;
         border: none;
         background: black;
-        color: white;
+        /*color: white;*/
+        color: #9696EFFF;
         font-size: 2rem;
         cursor: pointer;
         box-shadow: inset 1px 1px #9696EFFF;
@@ -77,7 +78,7 @@ h1 {
 }
 
 .shufButton {
-    color: white;
+    color: #9696EFFF;
     background: #04047AFF;
     font-family: Calibri;
     font-size: 1.3rem;
